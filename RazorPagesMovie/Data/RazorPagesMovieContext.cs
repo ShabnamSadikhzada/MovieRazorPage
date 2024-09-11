@@ -9,7 +9,10 @@ namespace RazorPagesMovie.Data
             : base(options)
         {
         }
-
+         
         public DbSet<Movie> Movie { get; set; } = default!;
     }
 }
+
+
+ 
